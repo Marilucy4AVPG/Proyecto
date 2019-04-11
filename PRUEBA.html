@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-image: 100px;
+  background-color: aqua;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+#logo{
+  background-color: yellow;
+  text-align: right;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 18%;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 82%;
+  background-color: #f1f1f1;
+  height: 1000px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style>
+</head>
+<body>
+
+
+
+
+<header>
+
+  <h2>Cities</h2>
+</header>
+
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Funciones de la piel</a></li>
+      <li><a href="#">Embriología de la piel</a></li>
+      <li><a href="#">Sustancia fundamental</a></li>
+    </ul>
+  </nav>
+
+  
+  <article>
+    <h1>London</h1>
+    <p>¿Funciones de la piel?
+
+Entre las funciones de la piel está la de mantener la temperatura corporal constante, la piel es bastante resistente pero como lo puedes notar, es más resistente en algunas partes que otras, por ejemplo el lugar más resistente de nuestra piel es en las plantas de nuestros pies pues desde que comenzamos a caminar esta se va endureciendo para poder soportarlo mejor.
+
+También en algunas partes la piel es más gruesa, y en otros es más delgada. La piel más gruesa de nuestro cuerpo se encuentra en la espalda y la más delgada en nuestros párpados, esto lo puedes notar cerrando los ojos y mirando hacia la luz una gran parte de ella pasa.
+
+Toda nuestra piel está formada por dos capas, la superior es nombrada la epidermis y la inferior se llama dermis.
+
+Además por muy delgada que sea, tiene venas y pequeñas arterias que transporta sangre; también nervios que nos hacen sentir frió, calor o dolor, de aquí viene nuestro sentido del tacto.
+
+También glándulas que producen el sudor o la grasa. Su principal función es actuar como una especie de barrera que protege el organismo del exterior y así ayudar a mantener su estructura.
+
+Estas son unas de las Funciones de la piel, nosotros podemos ver la piel externamente, sin embargo no podemos ver lo que está debajo de ella, no podemos ver los músculos ni los huesos ni los nervios ni los órganos que logran hacer nuestro cuerpo trabajar.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+</section>
+<footer>
+  hola
+</footer>
+
+
+</body>
+</html>
